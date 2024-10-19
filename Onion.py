@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# Usage: python3 onion.py -l keywords.txt -u urls.txt
+
+
 import argparse
 from requests_tor import RequestsTor
 import requests
